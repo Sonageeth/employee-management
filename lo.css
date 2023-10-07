@@ -1,0 +1,61 @@
+.container-fluid{
+    display: flex;
+}
+
+.log{
+    left: 700px;
+    position: relative;
+    background-color: blue;
+    color: white;
+}
+.row{
+    top: 50px;
+    position: relative;
+    background-color: aquamarine;
+}
+
+
+.se{
+    position: relative;
+    top: 50px;
+}
+.btn{
+    text-align: center;
+    border: 2px solid black;
+    left: 50px;
+    position: relative;
+}
+
+.in{
+    position: relative;
+    left: 50px;
+}
+
+.sub{
+    position: relative;
+    left: 80px;
+    background-color: green;
+}
+
+.pic{
+    width: 400px;
+    
+    position: relative;
+    height: 410px;
+    
+   /* border: 2px solid black; */
+   background-color: white;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .row{
+        display: block;
+    }
+    h1{
+        font-size: large;
+    }
+    .log{
+        left: 10px;
+    }
+}
